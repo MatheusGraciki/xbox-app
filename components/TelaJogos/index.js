@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, Text, SafeAreaView,Button } from 'react-native'; 
+import { View, Text, SafeAreaView, Button, Pressable } from 'react-native'; 
 
 
-import { Video, AVPlaybackStatus } from 'expo-av';
+import { Video} from 'expo-av';
 import styles from './styles';
+import { ScrollView,} from 'react-native-gesture-handler';
 
 
 
@@ -12,32 +13,100 @@ import styles from './styles';
 
 export default function TelaJogos() {
   const video = React.useRef(null);
-  const [status, setStatus] = React.useState({});
-  const CyberPunkVideo = require('../../assets/Cyberpunk.mp4');
+ 
+  const CyberPunkVideo = require('../../assets/trailers/Cyberpunk.mp4');
+  const Forza5Video = require('../../assets/trailers/Forza5.mp4');
+  const Halo5Video = require('../../assets/trailers//Halo5.mp4');
   return (
-
-    <View>
-      <Video
-        ref={video}
-        source={CyberPunkVideo}
-        style={styles.video}
-        useNativeControls
-        resizeMode="contain"
-        isLooping
-        onPlaybackStatusUpdate={status => setStatus(() => status)}
-      />
-
+  
+  <ScrollView style={styles.container}>
+    <SafeAreaView>
+      <Text style={ styles.titulo }>Jogos em 4k</Text>
+      <Text style={ styles.subtitulo }>Os principais jogos estão aqui. Veja abaixo três exemlos de grande sucesso.</Text>
       
-    
+      <View >
+        
+        <View style={styles.containerVideo}>
 
- <View style={styles.buttons}>
-        <Button
-          title={status.isPlaying ? 'Pause' : 'Play'}
-          onPress={() =>
-            status.isPlaying ? video.current.pauseAsync() : video.current.playAsync()
-          }
-        />
+        <Text style={ styles.tituloVideo }>
+            Cyberpunk 2077
+          </Text>
+          
+          <Video
+          
+            ref={video}
+            source={CyberPunkVideo}
+            style={styles.video}
+            useNativeControls
+            resizeMode='cover'
+            
+            
+             />
+        <Text style={ styles.descricao1 }>Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt.
+        </Text>
+
+        </View>    
+        
+        
+      <View style={styles.containerVideo}>
+
+          <Text style={ styles.tituloVideo }>
+            Forza Horizon 5 
+          </Text>
+
+          <Video
+          
+          ref={video}
+          source={Forza5Video}
+          style={styles.video}
+          useNativeControls
+          resizeMode='cover'
+        
+        
+          
+          />
+          <Text style={ styles.descricao }>
+            Forza Horizon 5 é um jogo de corrida. É o quinto jogo da série Forza Horizon e o décimo segundo título principal da franquia Forza. O jogo se passa em uma representação ficcional do México. 
+          </Text>
+      </View>    
+        
+
+
+     
+      <View style={styles.containerVideo}>
+
+
+          <Text style={ styles.tituloVideo }>
+            Halo 5 
+          </Text>
+
+          <Video
+                    
+            ref={video}
+            source={Halo5Video}
+            style={styles.video}
+            useNativeControls
+            resizeMode='cover'
+
+
+          />
+
+
+       
+          <Text style={ styles.descricao }>
+            Halo 5 Guardians é um jogo de tiro em primeira pessoa, parte da franquia Halo e sequência de Halo 4.
+          </Text>
+      </View>  
+      
+
+
+        
+      
+
+
+        
       </View>
-    </View>
+    </SafeAreaView>
+  </ScrollView>  
   );
 }
