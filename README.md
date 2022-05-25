@@ -24,7 +24,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Um aplicativo criado para fornecer informações sobre os serviços da  xbox
+  Um aplicativo criado para fornecer informações sobre os serviços da  Xbox
 </p>
 
 <br/>
