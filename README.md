@@ -42,10 +42,10 @@
 
 ## Fotos do aplicativo 
 
-![image](https://user-images.githubusercontent.com/85004422/170386149-a35c21fb-8192-4b8d-90e0-fb4ef36687eb.png)
-![image](https://user-images.githubusercontent.com/85004422/170386350-9b840a54-043c-4bae-9f94-2836a2aa571b.png)
-![image](https://user-images.githubusercontent.com/85004422/170386511-cf059cca-f07a-4995-abfe-999c7cb411b1.png)
-![image](https://user-images.githubusercontent.com/85004422/170386551-81305a9a-df69-47d3-9370-2e2aec6dfed9.png)
+![image](https://user-images.githubusercontent.com/85004422/170387615-4f91e04e-f386-4b47-b5b5-69caf0849d17.png)
+![image](https://user-images.githubusercontent.com/85004422/170387671-7c80f898-9c3f-42e6-aa8e-a6ddd14cc471.png)
+![image](https://user-images.githubusercontent.com/85004422/170387473-edfd4f9f-1bae-43a0-b50a-37aaf8aac5bc.png)
+![image](https://user-images.githubusercontent.com/85004422/170387728-e52c2c42-42fa-4565-b404-4427ddbfdd28.png)
 
 
 
