@@ -40,7 +40,7 @@ export default function TelaJogos() {
             
             
              />
-        <Text style={ styles.descricao1 }>Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt.
+        <Text style={ styles.descricao1 }>Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt Red.
         </Text>
 
         </View>    
