@@ -8,14 +8,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: '#2c2e2d',
-    padding: '1%',
+    padding: '5%',
     
   },
+  
   img: {
     width: '23%',
-    height: '11%',
+    aspectRatio: 5/5 ,
     borderRadius: 50,
-    marginBottom: '5%',
+    
   },
   titulo: {
     fontSize:RFValue(26),
@@ -27,7 +28,7 @@ const styles = StyleSheet.create({
    
     color: '#b2b2b2',
     textAlign: "center",
-    width: '93.92%',
+    paddingHorizontal:'1%',
     marginBottom: '7%',
  
    

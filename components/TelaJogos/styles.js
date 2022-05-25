@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     
         flex: 1,
         backgroundColor: '#121212',
-        padding: '1%',
+        padding: '5%',
         
         
       },
@@ -29,19 +29,15 @@ const styles = StyleSheet.create({
         marginBottom: '7%',
         paddingHorizontal: 10,
         fontSize:RFValue(15)
-     
-     
-       
-    
       },
 
       containerVideo:{
-        marginTop:'20%',
+        marginTop:'5%',
         borderRadius: 5,
         borderColor:'#0A0909',
         borderWidth:10,
-        backgroundColor: '#0A0909'
-        
+        backgroundColor: '#0A0909',
+        marginBottom:'10%'
       },
     
       

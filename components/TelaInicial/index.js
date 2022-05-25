@@ -11,7 +11,7 @@ import { SafeAreaView } from 'react-native';
 
 export default function TelaInicial (props) {
   return (
-    <>
+  
       <SafeAreaView style={styles.container}>
         <View style={ styles.container }>
           <Image source={ imgFundo } style={ styles.img } />
@@ -43,6 +43,6 @@ export default function TelaInicial (props) {
           </Pressable>
         </View>
       </SafeAreaView>  
-    </>
+    
   )
 }
