@@ -28,13 +28,11 @@ const styles = StyleSheet.create({
    
     color: '#b2b2b2',
     textAlign: "center",
-    paddingHorizontal:'1%',
     marginBottom: '7%',
  
    
 
   },
-
   card: {
     width: '75%',
     alignItems: "center",

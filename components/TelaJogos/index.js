@@ -1,9 +1,7 @@
 import React from 'react';
 import { View, Text, SafeAreaView, Button, Pressable } from 'react-native'; 
-
-
-import { Video} from 'expo-av';
 import styles from './styles';
+import { Video} from 'expo-av';
 import { ScrollView,} from 'react-native-gesture-handler';
 
 
