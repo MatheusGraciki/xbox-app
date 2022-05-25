@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
         
         textAlign: "center",
         paddingHorizontal: 20,
-        marginBottom:'2.5%',
         fontSize:RFValue(16),
         fontWeight:'700'
       

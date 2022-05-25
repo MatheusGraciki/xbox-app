@@ -20,7 +20,7 @@ export default function TelaJogos() {
   <ScrollView style={styles.container}>
     <SafeAreaView>
       <Text style={ styles.titulo }>Jogos em 4k</Text>
-      <Text style={ styles.subtitulo }>Os principais jogos estão aqui. Veja abaixo três exemlos de grande sucesso.</Text>
+      <Text style={ styles.subtitulo }>Os principais jogos estão aqui. Veja abaixo três exemplos de grande sucesso.</Text>
       
       <View >
         
