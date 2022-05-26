@@ -69,7 +69,7 @@ git clone https://github.com/MatheusGraciki/xbox-app.git
 ```
 Entre na pasta:
 ```
-cd Turismo-Paraty
+cd xbox-app
 ```
 Instale as dependencias:
 ```
